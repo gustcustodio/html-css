@@ -14,10 +14,10 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-body {
+html, body {
     min-height: 100vh;
     background-color: #494f52;
-    
+    font-family: var(--fonte1);
 }
 
 header {
@@ -43,6 +43,10 @@ a {
     color: #e8e6e3;
     font-family: var(--fonte1);
     font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 section.fundo-normal {
@@ -76,6 +80,10 @@ section p.quadro {
     padding: 5px;
 }
 
+section .primeiro-paragrafo {
+    padding-bottom: 35px;
+}
+
 section#img-um {
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
@@ -88,7 +96,10 @@ section#img-dois {
 footer {
     color: #e8e6e3;
     background-color: #000;
-    font-family: var(--fonte1);
     text-align: center;
     padding: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
