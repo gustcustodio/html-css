@@ -24,11 +24,42 @@
                     <option value="SGXYN10256">Galaxy Note10 256GB</option>
                 </optgroup>
             </select>
+        </p>    
+
+        <p>
+            <label for="idesc">Especificações técnicas:</label> <br>
+            <textarea name="desc" id="idesc" cols="40" rows="10"></textarea>
         </p>
 
-
-    </form>
-
-    
+        <p>
+            <label for="iprof">Profissão: </label>
+            <select name="prof" id="iprof">
+                <option selected>Escolha...</option>
+                <optgroup label="Negócios">
+                    <option value="ADM">Administrador</option>
+                    <option value="CONT">Contador</option>
+                    <option value="GRH">Gestor de RH</option>
+                </optgroup>
+                <optgroup label="Artes e Design">
+                    <option value="ANM">Animador</option>
+                    <option value="ATOR">Ator</option>
+                    <option value="FTG">Fotógrafo</option>
+                </optgroup>
+                <optgroup label="Ciências Exatas">
+                    <option value="ADS">Analista de Sistema</option>
+                    <option value="EST">Estatístico</option>
+                    <option value="MAT">Matemático</option>
+                </optgroup>
+                <optgroup label="Ciências Humanas">
+                    <option value="ADV">Advogado</option>
+                    <option value="LING">Linguista</option>
+                    <option value="PROF">Professor</option>
+                </optgroup>
+            </select>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>    
 </body>
 </html>
